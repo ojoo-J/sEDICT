@@ -9,7 +9,7 @@ parser.add_argument("--steps", default=50, type=int, help='number of total inver
 parser.add_argument("--s_i", default=0.7, type=float, help='init image strength for inversion')
 parser.add_argument("--s_d", default=0.8, type=float, help='init image strength for denoising')
 parser.add_argument("--seed", default=1, type=int, help="init seed")
-parser.add_argument("--scale", default=0.3, type=float, help="added noise scale")
+parser.add_argument("--scale", default=0.2, type=float, help="added noise scale")
 parser.add_argument("--n_sample", default=10, type=int, help="number of edited images to generate")
 parser.add_argument("--save_dir", default='./results/', type=str, help="save dir")
 

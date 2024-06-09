@@ -30,7 +30,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser(description="Quantitative Evaluation")
     parser.add_argument("--reference_img_path", default="experiment_images/imagenet_dog_7.jpg", type=str, help="original img path")
-    parser.add_argument("--generated_img_path", default="results/A dog_0.3_50_0.7_0.8_1.png", type=str, help="generated img path")
+    parser.add_argument("--generated_img_path", default="results/A dog_0.2_50_0.7_0.8_1.png", type=str, help="generated img path")
     
     args = parser.parse_args()
     print(args)
@@ -50,10 +50,10 @@ if __name__ == "__main__":
     img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
     img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
     
-    print('L2: ', mse(img1, img2)) # lower, better
-    print('PSNR: ', psnr(img1, img2)) # higher, better
-    print('SSIM: ', ssim(img1_gray, img2_gray)) # higher, better
-    print('LPIPS: ', loss_fn_alex(transform(img1).to(device), transform(img2).to(device)).squeeze().item()) # lower, better
+    print('🔥🔥 L2: ', mse(img1, img2)) # lower, better
+    print('🔥🔥 PSNR: ', psnr(img1, img2)) # higher, better
+    print('🔥🔥 SSIM: ', ssim(img1_gray, img2_gray)) # higher, better
+    print('🔥🔥 LPIPS: ', loss_fn_alex(transform(img1).to(device), transform(img2).to(device)).squeeze().item()) # lower, better
     
     
     
