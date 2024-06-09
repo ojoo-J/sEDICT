@@ -1,7 +1,8 @@
 # sEDICT (stochastic EDICT)
+<img width="712" alt="image" src="https://github.com/ojoo-J/sEDICT/assets/124341473/3e809337-d422-4175-8a2c-c306519ff1ec">
+
 The baseline model is EDICT: Exact Diffusion Inversion via Coupled Transformation in this repository: https://github.com/salesforce/EDICT
 Please refer to the setup part for EDICT.
-<img width="712" alt="image" src="https://github.com/ojoo-J/sEDICT/assets/124341473/3e809337-d422-4175-8a2c-c306519ff1ec">
 
 # Experimental Results
 <img width="960" alt="image" src="https://github.com/ojoo-J/sEDICT/assets/124341473/c8e5a898-861a-4334-b834-808900d5d7e9">
